@@ -1,0 +1,10 @@
+
+config p910nd
+	option device '/dev/usb/lp0'
+	option port '0'
+	option runas_root '0'
+	option mdns '0'
+	option mdns_ty 'My Printer Manufacturer/Model'
+	option mdns_note 'Basement'
+	option enabled '1'
+

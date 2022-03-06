@@ -1,0 +1,15 @@
+
+config syncdial 'config'
+	option syncon '1'
+	option dialchk '1'
+	option nomwan '0'
+	option wanselect 'wan'
+	option bindwan '0'
+	option dial_type '1'
+	option devbackup 'wan wan6'
+	option dialwait '5'
+	option dialnum '2'
+	option wannum '2'
+	option old_frame '1'
+	option enabled '0'
+

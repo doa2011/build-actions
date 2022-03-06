@@ -32,6 +32,8 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ                                          
 
 sed -i '/to-ports 53/d' $ZZZ                                                                        # 删除默认防火墙
 
+sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+
 #sed -i 's/PATCHVER:=5.10/PATCHVER:=5.15/g' target/linux/x86/Makefile                               # x86机型,默认内核5.10，修改内核为5.15（去掉sed前面的#生效）
 
 # K3专用，编译K3的时候只会出K3固件（去掉sed前面的#生效）
